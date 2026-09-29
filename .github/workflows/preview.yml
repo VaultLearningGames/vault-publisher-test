@@ -2,7 +2,7 @@ name: Preview
 
 # Stand-in for a game repo using the split reusable workflows: a (simulated) build job uploads an
 # artifact, VaultLearningGames/vault-publisher's publish-preview.yml publishes it to
-# https://cdn.vaultlearninggames-staging.org/fielddaylab/publisher-test/<branch>/ , then `verify` checks the
+# https://builds.vaultlearninggames-staging.org/vault/publisher-test/<branch>/ , then `verify` checks the
 # CDN's headers. Deleting a branch removes its preview.
 on:
   push:
